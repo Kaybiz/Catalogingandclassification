@@ -1,0 +1,15 @@
+# Ignore system and personal files
+.DS_Store
+.CFUserTextEncoding
+.bash*
+.aws/
+.anaconda/
+.ipython/
+.jupyter/
+.oh-my-zsh/
+.ssh/
+
+# Ignore any hidden folders in parent directories
+../../../*
+node_modules/
+
