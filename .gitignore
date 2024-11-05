@@ -1,0 +1,21 @@
+# Ignore everything in parent directories
+../
+../../
+
+# OS files
+.DS_Store
+.Trash/
+
+# Project specific
+node_modules/
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Misc
+*.log
